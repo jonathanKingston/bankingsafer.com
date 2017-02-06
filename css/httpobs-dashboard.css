@@ -49,10 +49,24 @@ span[data-pass="None"], span[data-grade="None"] {
     width: 19.5em;
 }
 
+.table-group tr td:nth-child(2):hover {
+    cursor: pointer;
+}
+
+.table-group tr td:nth-child(2), .table-group tr td:nth-child(3) {
+    vertical-align: middle;
+    width: 1em;
+}
+
 .table-group tr td:nth-child(10) {
      border-left: solid 2px #dddddd;
 }
 
 #dashboard-date {
-    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#filter-sites {
+    margin-top: 1.5em;
+    width: 20em;
 }
